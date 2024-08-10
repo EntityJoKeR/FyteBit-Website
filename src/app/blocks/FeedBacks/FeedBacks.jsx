@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const FeedBacks = () => {
     return (
-        <section className={styles.mainContainer}>
+        <section className={styles.mainContainer} id='otzivy'>
             <div className={styles.headContainer}>
                 <div className={styles.headText}>ОТЗЫВЫ НАШИХ КЛИЕНТОВ</div>
                 <div className={styles.headDescription}>Отзывы наших реальных клиентов, каждый отзыв вы можете проверить, написав лично и уточнив интересующие вас детали</div>

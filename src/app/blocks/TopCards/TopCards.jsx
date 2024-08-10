@@ -22,7 +22,7 @@ export default function TopCards() {
                     <p className={styles.leftCardText}>Мы продумаем дизайн и логику для вашего сайта или бота!</p>
                 </div>
             </div>
-            <div className={styles.teamText}>Наша команда</div>
+            <div className={styles.teamText} id='team'>Наша команда</div>
             <div className={styles.rightCards}>
                 <div className={styles.rightCard}>
                     <Image className={styles.rightCardImg} width={100} height={100} src="/img/profile_1.png" alt="RTImage"/>

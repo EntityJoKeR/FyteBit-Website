@@ -4,7 +4,7 @@ import Image from "next/image";
 const Projects = () => {
     return (
         <section className={styles.mainContainer}>
-            <div className={styles.mark}>ПОЛЕЗНО ЗНАТЬ</div>
+            <div className={styles.mark} id='about'>ПОЛЕЗНО ЗНАТЬ</div>
             <div className={styles.aboutContainer}>
                 <div className={styles.aboutAs}>
                     <div className={styles.aboutAsHeader}>ПРО НАС</div>

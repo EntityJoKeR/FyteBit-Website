@@ -3,7 +3,7 @@ import styles from './SendForm.module.css';
 const SendForm = () => {
     return(
         <section className={styles.mainContainer}>
-            <div className={styles.formHead}>
+            <div className={styles.formHead} id='sendForm'>
                 <div className={styles.headText}>ФОРМА - ОСТАВЬ ЗАЯВКУ</div>
                 <div className={styles.headDescription}>Заполняй форму, мы вам отпишем в течении суток для уточнения деталей. Обазятельно проверьте корректность данных</div>
             </div>

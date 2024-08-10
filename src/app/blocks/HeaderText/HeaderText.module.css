@@ -62,17 +62,20 @@
         font-size: 0.9rem;
         font-weight: bold;
         transition: all 0.2s linear;
+
         @media (max-width: 768px) {
             width: 10rem;
             height: 2rem;
             font-size: 0.8rem;
         }
+
         @media (max-width: 400px) {
             margin-top: 1rem;
             width: 10rem;
             height: 2.5rem;
             font-size: 0.8rem;
         }
+        
         &:hover{
             background-color: #FD0050;
             color: white;
